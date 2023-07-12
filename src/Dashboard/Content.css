@@ -1,0 +1,153 @@
+.hello {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.box {
+  box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 10px solid rgba(255, 255, 255, 1);
+  max-width: 100vw;
+}
+
+.welcome-box-title {
+  font-family: Inter;
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.welcome-box-subtitle {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.accord {
+  max-width: 100%;
+  background-color: #fff;
+}
+
+.accord-input {
+  display: none;
+}
+
+.accord-label {
+  display: block;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 1px;
+  cursor: pointer;
+  position: relative;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.accord-label:hover {
+  background-color: white;
+}
+
+.accord-label .arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #333 transparent transparent transparent;
+  transition: transform 0.3s ease;
+}
+
+.accord-input:checked + .accord-label .arrow {
+  transform: translateY(-50%) rotate(-180deg);
+}
+
+.accord-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accord-input:checked + .accord-label + .accord-content {
+  max-height: 1000px; /* Adjust the max-height as needed */
+  padding: 10px;
+  background-color: white;
+}
+
+/* Media Queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .hello {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .box {
+    border: 8px solid rgba(255, 255, 255, 1);
+  }
+
+  .welcome-box-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .welcome-box-subtitle {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .accord-label {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .accord-content {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hello {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .box {
+    border: 6px solid rgba(255, 255, 255, 1);
+    max-width: 700px;
+  }
+
+  .welcome-box-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .welcome-box-subtitle {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .accord-label {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .accord-content {
+    padding: 6px;
+  }
+}

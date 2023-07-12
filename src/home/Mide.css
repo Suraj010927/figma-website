@@ -1,0 +1,48 @@
+.swiper-pagination-bullets {
+  display: none;
+}
+
+.slide-image {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.slide-text {
+  position: absolute;
+  top: 46px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .slide-text {
+    top: 20px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .slide-text {
+    font-size: 12px;
+    line-height: 10px;
+    top: 20px;
+  }
+}

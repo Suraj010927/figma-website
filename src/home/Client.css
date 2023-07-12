@@ -1,0 +1,93 @@
+.slide-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.slide-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.te {
+  padding: 0px 80px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-top: 15px;
+  
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.n {
+  font-size: 1.6rem;
+  color: black;
+}
+
+.t {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  align-items: flex-start;
+}
+
+.bubble {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  background-color: rgba(61, 113, 150, 1);
+;
+  border-radius: 50%;
+}
+
+.bubble::before {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 30%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 50px;
+  background: rgba(61, 113, 150, 1);
+
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  z-index: -100;
+}
+
+@media (max-width: 768px) {
+  .bubble {
+    padding: 10px;
+  }
+
+  .bubble::before {
+    width: 200px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bubble {
+    padding: 5px;
+  }
+
+  .bubble::before {
+    width: 100px;
+    height: 50px;
+  }
+}

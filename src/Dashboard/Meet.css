@@ -1,0 +1,22 @@
+.custom-meet-box{
+  width: 25vw;
+    align-items: center;
+  
+    display: flex;
+}
+.custom-swiper-container{
+  width: 250px;
+}
+@media screen and (max-width: 768px) {
+  .custom-meet-box {
+    width: 80vw;
+  }
+}
+.metext{
+  color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

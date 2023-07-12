@@ -1,0 +1,42 @@
+.sidebar {
+  width: 80px;
+  transition: width 0.3s ease;
+}
+
+.sidebar.expanded {
+  width: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.ppimg {
+  width: 70px;
+}
+.expanded-link {
+  position: relative;
+  z-index: 1;
+}
+
+.textss {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sidebar .nav-link {
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bar-text {
+  font-size: 18px;
+
+  color: black;
+}
