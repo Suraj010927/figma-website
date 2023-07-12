@@ -14,7 +14,7 @@ To get started with the project, follow these steps:
 
    npm install
 
-4.To run the app on a development server, use the following command:
+4. To run the app on a development server, use the following command:
 
   npm start
 
