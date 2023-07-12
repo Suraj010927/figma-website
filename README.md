@@ -8,9 +8,7 @@ To get started with the project, follow these steps:
 
 1. Extract Rar file into your derectory
 
-2. Navigate to the project directory using terminal:
-
-   cd react-app-project
+2. Navigate to the project directory in the terminal.
 
 3. Install the required dependencies using npm:
 
