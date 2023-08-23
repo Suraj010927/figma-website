@@ -1,52 +1,42 @@
-# React App Project
+# Figma to Web Landing Page
 
-This is a React app project.
+A 2-page website project that converts a Figma design into a functional web landing page. The project is fully responsive, adapting to various screen sizes.
 
-## Installation
+## Features
 
-To get started with the project, follow these steps:
+- Home page layout showcasing your product/service.
+- Accordion component for displaying FAQ sections.
+- Carousel component for highlighting key features.
+- Dashboard page layout accessible upon login.
 
-1. Extract Rar file into your derectory
+## Demo
 
-2. Navigate to the project directory in the terminal.
+View the live demo: [Figma to Web Landing Page Demo](https://figma-website-seven.vercel.app/)
 
-3. Install the required dependencies using npm:
+## Screenshots
 
-   npm install
-
-4. To run the app on a development server, use the following command:
-
-  npm start
-
-  This will start the development server and open the app in your default browser. Any changes you make to the source files will b  
-   automatically reloaded.
-
-To stop the development server, press Ctrl + C in the terminal.
-
-## Opening the Dashboard
-To open the Dashboard, follow these steps:
-
-1.In the app's navbar located at the top of the page, click on the "Login" button.
-
-2.The Dashboard page will then be displayed, providing access to the app's main features.
+![for gif](https://github.com/SurajTechsmith/Figma-to-Web-landing-page/assets/132484115/cd744693-b873-4f24-ab32-16c915cd8d63)
 
 
-## Navigating to the Home Page
-To navigate to the Home page, you can use either of the following methods:
+## Getting Started
 
-## Method 1: Sidebar
-1.In the Dashboard, you will find a sidebar on the left-hand side of the page.
+Follow these steps to run the project locally:
 
-2.Click on the "Home" button in the sidebar.
+1. Clone this repository: `git clone https://github.com/SurajTechsmith/Figma-to-Web-landing-page.git`
+2. Navigate to the project directory: `cd Figma-to-Web-landing-page`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 
-3.The Home page will be displayed.
+The app will open in your browser at `http://localhost:3000`.
 
-## Method 2: Navbar Logo
-1.In the app's navbar located at the top of the page, you will find a logo.
+## Usage
 
-2.Click on the logo.
+Explore the home page by clicking on links, buttons, and interacting with the accordion and carousel components. Log in to access the dashboard page.
 
-3.The Home page will be displayed.
+## Technologies Used
 
-
-
+- React for building the UI components.
+- React Router for page navigation.
+- CSS for styling and responsiveness.
+- Accordion component for FAQ sections.
+- Carousel component for highlighting features.
